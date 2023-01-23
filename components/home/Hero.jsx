@@ -1,10 +1,11 @@
 import React from 'react';
+import HeroSlider from './Slider';
+
 
 const Home = () => {
     return (
         <div>
-            <h1></h1>
-            <button className='btn btn-primary'>Btn</button>
+           <HeroSlider/>
         </div>
     );
 };
