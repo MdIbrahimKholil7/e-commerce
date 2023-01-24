@@ -60,8 +60,7 @@ const Cart = () => {
                                         <th>Product</th>
                                         <th>Quantity</th>
                                         <th>Price</th>
-                                        <th>Total</th>
-                                        <th></th>
+                                        
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -102,7 +101,7 @@ const Cart = () => {
 
                                             </td>
                                             <td>300</td>
-                                            <td>{prod?.quantity * 300} Tk</td>
+                                         
 
                                         </tr>)
                                     }
